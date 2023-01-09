@@ -22,7 +22,11 @@ public class Query04 {
         ps.setString(3, "12");
         ps.setString(4,"E");
 
+
         ps.executeUpdate();
         System.out.println("Veri girisi yapildi");
+
     }
+
+
 }
